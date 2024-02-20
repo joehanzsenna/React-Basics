@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* single design style  */
+.singleCard{
+    width: 20rem;
+    padding: 0 0 1rem 0;
+}
+.cardImg{
+    width: 100%;
+}
+.innerCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.text1{
+    font-weight: bold;
+    margin: .5rem 0;
+    font-size: 1.2rem;
+}
+.text2{
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+.text3{
+    font-size: 1.3rem;
+}
+.innerBtn{
+    background-color: transparent;
+    border: .1rem solid green;
+    color: green;
+    padding: .5rem .8rem;
+}
+
+
+/* product style  */
+.product{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    background-color: orange;
+    padding: 2rem 0;
+}
+.product-content{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5rem;
+
+}

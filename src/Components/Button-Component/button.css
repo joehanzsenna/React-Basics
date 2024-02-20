@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 60vh;
+    background-color: orange;
+    margin-bottom: 5rem;
+}
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
